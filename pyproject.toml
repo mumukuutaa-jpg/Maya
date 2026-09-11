@@ -1,0 +1,18 @@
+[project]
+name = "maya"
+version = "1.0.0"
+description = "Maya AI Assistant"
+dependencies = [
+    "flet",
+    "google-genai",
+    "SpeechRecognition",
+    "pyttsx3",
+    "pyaudio",
+    "requests"
+]
+
+[tool.flet.app]
+name = "MayaAI"
+product = "Maya Assistant"
+org = "com.maya.assistant"
+
