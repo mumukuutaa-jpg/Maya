@@ -1,0 +1,14 @@
+name: Build Flet App
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build APK
+        uses: flet-dev/flet-build-action@v1
+        with:
+          target: apk
+          
