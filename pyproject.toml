@@ -1,7 +1,7 @@
 [project]
 name = "maya"
 version = "1.0.0"
-description = "Maya AI Assistant"
+requires-python = ">=3.10"
 dependencies = [
     "flet",
     "google-genai",
@@ -15,4 +15,3 @@ dependencies = [
 name = "MayaAI"
 product = "Maya Assistant"
 org = "com.maya.assistant"
-
