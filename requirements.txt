@@ -1,6 +1,6 @@
 flet
+google-genai
 SpeechRecognition
 pyttsx3
 pyaudio
-google-genai
-
+requests
