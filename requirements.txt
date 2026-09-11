@@ -1,0 +1,6 @@
+flet
+SpeechRecognition
+pyttsx3
+pyaudio
+requests
+google-genai
